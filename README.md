@@ -17,7 +17,7 @@ gbpe -bpe input_file [input_format] [measure] [merge_times] output_file
 
 `input_format`: `0` for plain text input, `1` for vocabulary input with each line containing a word-frequency pair.
 
-`measure`: `0` for FRQ-BPE, `1` for frequency-weighted AV'-BPE, `2` for frequency-weighted DLG'-BPE, `11` for unweighted AV-BPE, `12` for unweighted DLG-BPE,
+`measure`: `0` for frequency-weighted FRQ'-BPE, `1` for frequency-weighted AV'-BPE, `2` for frequency-weighted DLG'-BPE, `10` for unweighted FRQ-BPE, `11` for unweighted AV-BPE, `12` for unweighted DLG-BPE,
 `24, 34, ..., 104` for `0.1AV'-BPE + 0.9DLG'-BPE, 0.2AV'-BPE + 0.8DLG'-BPE, ..., 0.9AV'-BPE + 0.1DLG'-BPE`.
 
 `merge_times`: an integer for the number of merge operations.
